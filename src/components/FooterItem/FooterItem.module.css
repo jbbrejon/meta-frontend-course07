@@ -1,0 +1,21 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.title {
+    color: #495E57;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.li {
+    display: flex;
+}
