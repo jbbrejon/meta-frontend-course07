@@ -1,6 +1,11 @@
+// Import components
+import Cta from "../../components/Cta/Cta"
+
 function Home() {
     return (
-        <main>Home</main>
+        <main>
+            <Cta />
+        </main>
     )
 }
 
