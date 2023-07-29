@@ -1,0 +1,52 @@
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 406px;
+    width: 100%;
+    background-color: #495E57;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 885px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 422px;
+    height: 331px;
+}
+
+.h1 {
+    display: flex;
+    font-weight: 500;
+    font-size: 56px;
+    color: #F4CE14;
+}
+
+.city {
+    display: flex;
+    font-family: 'Markazi Text', serif;
+    font-size: 32px;
+    color: white;
+}
+
+.presentation {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.picture {
+    width: 375px;
+    height: 325px;
+    object-fit: cover;
+    border-radius: 15px;
+}
