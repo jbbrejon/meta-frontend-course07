@@ -1,8 +1,9 @@
 .button {
     background-color: #F4CE14;
     color: #495E57;
-    padding: 5px 10px;
+    padding: 10px 40px;
     font-size: 20px;
+    font-weight: 700;
     transition: 0.5s;
     margin: 20px 0;
     border: none;
@@ -18,7 +19,7 @@
 .buttonDisabled {
     background-color: rgb(193, 189, 189);
     color: black;
-    padding: 5px 10px;
+    padding: 10px 40px;
     font-size: 20px;
     transition: 0.5s;
     margin: 20px 0;
