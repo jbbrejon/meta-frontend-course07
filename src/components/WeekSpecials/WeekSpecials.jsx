@@ -1,6 +1,9 @@
+// Import dependencies
+import { Link } from 'react-router-dom';
+
 // Import components
 import Button from '../Button/Button';
-import SpecialItem from '../WeekSpecialCard/WeekSpecialCard';
+import WeekSpecialCard from '../WeekSpecialCard/WeekSpecialCard';
 
 // Import assets
 import greekSalad from '../../assets/weekspecials/greek salad.jpg';
@@ -43,11 +46,11 @@ function WeekSpecials() {
     <section className={styles.specials}>
       <div className={styles.specialsHeader}>
         <h2>This week specials!</h2>
-        <Button type="click" status={false} valid="Online Menu" invalid="invalid" />
+        <Link to="/order"><Button type="click" status={false} valid="Online Menu" invalid="invalid" /></Link>
       </div>
       <div className={styles.cards}>
         {meals.map((meal) =>
-          <SpecialItem key={meal.id} meal={meal} />
+          <WeekSpecialCard key={meal.id} meal={meal} />
         )}
       </div>
     </section>
