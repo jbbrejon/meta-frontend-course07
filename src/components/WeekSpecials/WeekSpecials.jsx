@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 // Import components
 import Button from '../Button/Button';
-import SpecialItem from '../SpecialItem/SpecialItem';
+import SpecialItem from '../WeekSpecialCard/WeekSpecialCard';
 
 // Import assets
 import greekSalad from '../../assets/weekspecials/greek salad.jpg';
