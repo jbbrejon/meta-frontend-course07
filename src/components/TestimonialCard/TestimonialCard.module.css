@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    width: 24%;
+    background-color: white;
+}
+
+.rating {
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user img {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+}
+
+.review {
+    text-align: left;
+    margin: 20px 0;
+
+}
