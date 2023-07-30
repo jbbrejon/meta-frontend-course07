@@ -10,7 +10,7 @@ import Error from "../pages/Error/Error";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import Menu from "../pages/Menu/Menu";
-import Reservations from "../pages/Reservations/Reservations";
+import Reservations from "../pages/BookingPage/BookingPage";
 import Order from "../pages/Order/Order";
 import Login from "../pages/Login/Login";
 
