@@ -1,6 +1,3 @@
-// Import dependencies
-import { Link } from 'react-router-dom';
-
 // Import components
 import Button from '../Button/Button';
 import SpecialItem from '../WeekSpecialCard/WeekSpecialCard';
