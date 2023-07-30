@@ -1,0 +1,32 @@
+.specials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    max-width: 885px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.specialsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.specialsHeader h2 {
+    display: flex;
+    font-family: "Markazi Text", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
