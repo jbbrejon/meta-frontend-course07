@@ -1,6 +1,5 @@
 // Import assets
 import pictureA from '../../assets/presentation/Mario and Adrian A.jpg'
-import pictureB from '../../assets/presentation/Mario and Adrian b.jpg'
 
 // Import CSS module
 import styles from './Presentation.module.css'
