@@ -1,0 +1,50 @@
+.presentation {
+    display: flex;
+    height: 590px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 885px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text,
+.pictures {
+    display: flex;
+    width: 48%;
+}
+
+.text {
+    flex-direction: column;
+}
+
+.text h2 {
+    display: flex;
+    font-family: "Markazi Text", sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    color: #495E57;
+}
+
+.city {
+    display: flex;
+    font-family: "Markazi Text", sans-serif;
+    color: #495E57;
+    font-size: 40px;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.pictures img {
+    height: 338px;
+    object-fit: cover;
+}
