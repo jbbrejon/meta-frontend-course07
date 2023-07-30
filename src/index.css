@@ -39,3 +39,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+a.active {
+  color: #F4CE14;
+}
