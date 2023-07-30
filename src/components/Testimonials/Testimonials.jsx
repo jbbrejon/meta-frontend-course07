@@ -1,5 +1,10 @@
 // Import assets
 import pbateman from '../../assets/testimonials/patrick-bateman.jpg'
+import thomas from '../../assets/testimonials/thomas.jpg';
+import felicity from '../../assets/testimonials/felicity.jpg';
+import olivia from '../../assets/testimonials/olivia.jpg'
+
+// Import components
 import TestimonialCard from '../TestimonialCard/TestimonialCard';
 
 // Import CSS module
@@ -8,26 +13,26 @@ import styles from './Testimonials.module.css'
 const testimonials = [
     {
         id: 0,
-        name: 'Patrick Bateman',
+        name: 'Patrick',
         image: pbateman,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
         id: 1,
-        name: 'Patrick Bateman',
-        image: pbateman,
+        name: 'Thomas',
+        image: thomas,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
         id: 2,
-        name: 'Patrick Bateman',
-        image: pbateman,
+        name: 'Felicity',
+        image: felicity,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     },
     {
         id: 3,
-        name: 'Patrick Bateman',
-        image: pbateman,
+        name: 'Olivia',
+        image: olivia,
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     }
 ];
