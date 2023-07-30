@@ -2,7 +2,7 @@
 import FooterItem from '../../components/FooterItem/FooterItem'
 
 // Import assets
-import logo from '../../assets/brand/Logo-footer.png'
+import logo from '../../assets/brand/logo-white.png'
 
 // Import CSS module
 import styles from './Footer.module.css'
